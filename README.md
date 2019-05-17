@@ -2,7 +2,7 @@
 ---
 
 ## What's this?
-This website was created by the community of Devs Collab and is run by 100% by the community.
+This website was created by the community of Devs Collab and is run 100% by the community.
 
 ## Who can participate?
 Anybody! Think of this as a playground where no matter what your skill level, you can contribute to this project and nobody is going to yell at you if you make a mistake :)
