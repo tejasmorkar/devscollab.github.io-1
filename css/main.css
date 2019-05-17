@@ -53,6 +53,10 @@ h1{
     position: fixed;
     bottom: 0;
     padding: 20px;
+    background-color: rgba(38,166,154,1);
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1em;
 
     display: flex;
     flex-direction: row;
@@ -61,6 +65,7 @@ h1{
 
 .footer-links > a{
     margin: 10px;
+    color: inherit;
 }
 
 
