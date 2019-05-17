@@ -81,6 +81,9 @@ h1{
 
     .card-footer{
         width: auto;
+    }
 
+    .footer{
+        font-size: 0.65em;
     }
 }
