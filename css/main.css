@@ -18,16 +18,33 @@ h1{
     font-family: 'Righteous', sans-serif;
 }
 
-.link-card{
+.links-card{
+    width: 40vw;
+    padding: 50px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
 }
 
 .link-btn{
     margin: 20px 20px;
 }
 
+.card-footer{
+    line-height: 2;
+    text-align: justify;
+}
 
+
+/* Media Query for Responsive Website on Mobile */
+@media only screen and (max-width: 1000px) {
+    h1{
+        font-size: 0.9em;
+    }
+
+    .links-card{
+        width: 90vw;
+    }
+}
