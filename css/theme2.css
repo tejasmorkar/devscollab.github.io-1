@@ -1,0 +1,21 @@
+/* 
+    Importing fonts from https://fonts.google.com
+    Use the following line to implement the font :
+    
+    font-family: 'Righteous', cursive;
+
+*/
+
+/*
+     Modified For : Theme Change ;
+     Author : Mayank_MP05 ;
+*/
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+*{
+    user-select: none;
+}
+
+body{
+    display: none;
+}
