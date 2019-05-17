@@ -12,7 +12,7 @@
 }
 
 body{
-    
+    overflow-x: hidden;
 }
 
 .main-container{
@@ -46,6 +46,21 @@ h1{
     font-size: 1.1em;
     text-align: justify;
     letter-spacing: 0.5px;
+}
+
+.footer{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-links > a{
+    margin: 10px;
 }
 
 
