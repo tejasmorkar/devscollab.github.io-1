@@ -7,6 +7,10 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 
+body{
+    
+}
+
 .main-container{
     display: flex;
     flex-direction: column;
@@ -16,6 +20,7 @@
 
 h1{
     font-family: 'Righteous', sans-serif;
+    color: rgba(26,17,19,1);
 }
 
 .links-card{
@@ -34,7 +39,10 @@ h1{
 
 .card-footer{
     line-height: 2;
+    font-size: 1.1em;
+    width: 24vw;
     text-align: justify;
+    letter-spacing: 0.5px;
 }
 
 
@@ -46,5 +54,9 @@ h1{
 
     .links-card{
         width: 90vw;
+    }
+
+    .card-footer{
+        width: auto;
     }
 }
