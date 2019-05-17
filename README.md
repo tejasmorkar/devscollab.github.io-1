@@ -36,14 +36,14 @@ Add more categories and/or links to the list.
 -----
 
 
-#### Discord
+## Discord
 
 Information about the Discord Community, along with guides on using Discord.
 
 Discord Community Link: https://discord.gg/EHnUhuy
 
 ## Useful Information
-Repo: https://github.com/devscollab/devscollab.github.io 
+Repo: https://github.com/devscollab/devscollab.github.io   
 Tech: HTML initially, but up to the community  
 Theme: Light and Elegant  
 
