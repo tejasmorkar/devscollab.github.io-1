@@ -7,6 +7,10 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 
+*{
+    user-select: none;
+}
+
 body{
     
 }
