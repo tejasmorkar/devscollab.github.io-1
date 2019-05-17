@@ -40,7 +40,7 @@ Add more categories and/or links to the list.
 
 Information about the Discord Community, along with guides on using Discord.
 
-Discord Community Link: https://discord.gg/EHnUhuy
+Discord Community Link: https://discord.gg/JfKmqUh
 
 ## Useful Information
 Repo: https://github.com/devscollab/devscollab.github.io   
