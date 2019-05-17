@@ -52,4 +52,4 @@ Theme: Light and Elegant
 - Start making small Pull Requests wherever you think you can help. The Management team will be handling the project and adding the features that you create as they come.  
 - You can use the **#devs-collab-website** channel on Discord to discuss anything related to this project.  
 
-Happy coding!
+Keep Coding </>
