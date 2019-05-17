@@ -25,7 +25,7 @@ h1{
 
 .links-card{
     width: 40vw;
-    padding: 50px;
+    padding: 20px;
     
     display: flex;
     flex-direction: column;
@@ -40,7 +40,6 @@ h1{
 .card-footer{
     line-height: 2;
     font-size: 1.1em;
-    width: 24vw;
     text-align: justify;
     letter-spacing: 0.5px;
 }
@@ -58,5 +57,6 @@ h1{
 
     .card-footer{
         width: auto;
+
     }
 }
