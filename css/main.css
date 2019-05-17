@@ -1,0 +1,33 @@
+/* 
+    Importing fonts from https://fonts.google.com
+    Use the following line to implement the font :
+    
+    font-family: 'Righteous', cursive;
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Righteous', sans-serif;
+}
+
+.link-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.link-btn{
+    margin: 20px 20px;
+}
+
+
