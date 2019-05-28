@@ -86,11 +86,15 @@ h1 {
 /* Media Query for Responsive Website on Mobile */
 @media only screen and (max-width: 1000px) {
     h1 {
-        font-size: 0.9em;
+        font-size: 2em !important;
     }
 
     .card-footer {
         width: auto;
+    }
+
+    .members {
+        justify-content: center;
     }
 
     .footer {
