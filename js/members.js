@@ -10,20 +10,3 @@ const newLink = (link) => {
         alert('Please allow popups for this website');
     }
 }
-
-
-
-// Scroll Down and Scroll Up events
-
-// let lastScrollTop = 0;
-// $(window).scroll(function(event){
-//    let st = $(this).scrollTop();
-//    if (st > lastScrollTop){
-//        // downscroll code
-//        $('.footer').hide();
-//    } else {
-//       // upscroll code
-//       $('.footer').show();
-//    }
-//    lastScrollTop = st;
-// });

@@ -15,36 +15,42 @@ body {
     overflow: hidden;
 }
 
+h1 {
+    font-family: 'Righteous', sans-serif;
+    color: rgba(26, 17, 19, 1);
+}
+
 .page {
     height: 90vh;
     overflow: auto;
 }
 
 .main-container {
-    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-h1 {
-    font-family: 'Righteous', sans-serif;
-    color: rgba(26, 17, 19, 1);
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.links-card {
-    width: 40vw;
-    padding: 20px;
+.member-cards {
+    height: 45vh;
+    width: 250px;
+    padding: 2.5vh 10px;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
-.link-btn {
-    margin: 20px 20px;
+.member-cards-title {
+    text-align: center;
 }
 
 .card-footer {
@@ -81,10 +87,6 @@ h1 {
 @media only screen and (max-width: 1000px) {
     h1 {
         font-size: 0.9em;
-    }
-
-    .links-card {
-        width: 90vw;
     }
 
     .card-footer {
