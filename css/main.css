@@ -440,7 +440,8 @@ h1 {
     #links-card {
         width: 90vw;
         transform: none;
-        margin-top: 20px
+        margin-top: 20px;
+        margin-bottom: 50px
     }
 
     .card-footer {
