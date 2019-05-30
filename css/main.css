@@ -15,7 +15,7 @@
 
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 
 /* Track */
@@ -353,6 +353,10 @@ h1 {
 
 /* Media Query for Responsive Website on Mobile */
 @media only screen and (max-width: 1000px) {
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+
     .page {
         height: 93vh
     }
