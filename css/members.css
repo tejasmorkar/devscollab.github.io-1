@@ -38,10 +38,11 @@ h1 {
     justify-content: space-between;
 }
 
-.member-cards {
-    height: 45vh;
+#member-cards {
+    height: 300px;
     width: 250px;
     padding: 2.5vh 10px;
+    margin: 20px 20px;
 
     display: flex;
     flex-direction: column;

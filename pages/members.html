@@ -31,42 +31,16 @@
         <div class="container main-container">
             <h1>DevsCollab Members</h1>
 
-            <div class="members">
-                <div class="card member-cards" onclick="newLink('github.com/Ganesh0403')">
-                    <img class="ui medium circular image"
-                        src="https://avatars1.githubusercontent.com/u/48768065?s=96&v=4"
-                        style="height: 100px; width: 100px; margin-bottom: 10px">
-                    <span class="member-card-title">@Ganesh0403</span>
-                </div>
-
-                <div class="card member-cards" onclick="newLink('github.com/Mayank-MP05')">
-                    <img class="ui medium circular image"
-                        src="https://avatars3.githubusercontent.com/u/19904765?s=96&v=4"
-                        style="height: 100px; width: 100px; margin-bottom: 10px">
-                    <span class="member-card-title">@Mayank-MP05</span>
-                </div>
-
-                <div class="card member-cards" onclick="newLink('github.com/NirajSawant136')">
-                    <img class="ui medium circular image"
-                        src="https://avatars0.githubusercontent.com/u/48999124?s=96&v=4"
-                        style="height: 100px; width: 100px; margin-bottom: 10px">
-                    <span class="member-card-title">@NirajSawant136</span>
-                </div>
-
-                <div class="card member-cards" onclick="newLink('github.com/tejasmorkar')">
-                    <img class="ui medium circular image"
-                        src="https://avatars1.githubusercontent.com/u/35477326?s=180&v=4"
-                        style="height: 100px; width: 100px; margin-bottom: 10px">
-                    <span class="member-card-title">@tejasmorkar</span>
-                </div>
-
-                <div class="card member-cards" onclick="newLink('github.com/SuyashSonawane')">
-                    <img class="ui medium circular image"
-                        src="https://avatars0.githubusercontent.com/u/35629339?s=180&v=4"
-                        style="height: 100px; width: 100px; margin-bottom: 10px">
-                    <span class="member-card-title">@SuyashSonawane</span>
+            <div id="app" class="members">
+                <div v-for="(i,id) in list" :key="id">
+                    <a class="card" id="member-cards" :href="i.html_url">
+                        <img class="ui medium circular image" :src="i.avatar_url"
+                            style="height: 100px; width: 100px; margin-bottom: 10px">
+                        <span class="member-card-title">{{i.login}}</span>
+                    </a>
                 </div>
             </div>
+
         </div>
 
     </div>
@@ -90,6 +64,7 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
     <script src="../js/members.js"></script>
 </body>
 

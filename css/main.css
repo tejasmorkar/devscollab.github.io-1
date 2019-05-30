@@ -54,6 +54,64 @@ h1 {
     letter-spacing: 0.5px;
 }
 
+
+/* projects */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center
+}
+
+.projects .card {
+    overflow: hidden;
+    width: 350px;
+    height: 450px;
+    margin: 1em 3em;
+    transition: all 0.2s
+}
+
+.project-image {
+    height: 450px;
+    background: url('https://avatars3.githubusercontent.com/u/50016807?v=4');
+    background-size: contain;
+    transition: all 0.1s ease-in;
+
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+
+.project-image p {
+    transform: translateY(205px)
+}
+
+.projects .card:hover .project-info {
+    transform: translateY(-250px)
+}
+
+.projects .card:hover .project-image {
+    filter: blur(2px);
+}
+
+.project-info {
+    height: 250px;
+    transition: all 0.1s ease;
+    background: rgb(38, 166, 154);
+    background: linear-gradient(0deg, rgba(38, 166, 154, 1) 20%, rgba(0, 212, 255, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    color: white;
+    text-align: justify;
+    padding: 20% 5%;
+    justify-content: center;
+    align-items: center
+}
+
+
+
 .footer {
     height: 10vh;
     width: 100vw;
@@ -75,6 +133,7 @@ h1 {
     margin: 10px;
     color: inherit;
 }
+
 
 
 /* Media Query for Responsive Website on Mobile */
