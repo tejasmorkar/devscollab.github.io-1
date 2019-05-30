@@ -43,8 +43,131 @@
 <body>
 
     <div class="page">
+        <div class="landing">
+            <div class="spacer"></div>
+            <div class="main-heading rellax" data-rellax-speed="">
+                DEVS COLLAB
+            </div>
+            <div class="main-sub-heading">
+                An OpenSource Platform for Developers
+            </div>
+        </div>
 
-        <div class="container main-container">
+        <div class="about-us">
+            <div class="content">
+                <div class="about-us-title">
+                    GET TO KNOW US
+                </div>
+                <div class="about-us-content">
+                    Starting from a small thought of opensource collaboration , we build this platform to help and
+                    encourage
+                    many developers
+                    in various fields of computer technology
+                </div>
+            </div>
+            <div class="about-us-image"></div>
+
+        </div>
+
+        <div class="contribute">
+            <div class="contribute-title">CONTRIBUTE IN EVOLUTION</div>
+            <div class="contribute-content">
+                <div class="info-card">
+                    <div class="card-image">
+                        <img src="/images/community.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        GENEROUS COMMUNITY
+                    </div>
+                    <div class="card-content">
+                        Using technology to solve business problems.
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="card-image">
+                        <img src="/images/handshake.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        Meet new Developers
+                    </div>
+                    <div class="card-content">
+                        Connect with developers to increase your dev circle
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="card-image">
+                        <img src="/images/increase.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        Build up your Skills
+                    </div>
+                    <div class="card-content">
+                        Refresh , Refine ,Harvest and Boost your Skills
+                    </div>
+                </div>
+
+            </div>
+            <div class="spacer"></div>
+
+        </div>
+
+        <div class="projects-page">
+            <div class="projects-title">
+                Projects Overview
+            </div>
+            <div id="app">
+                <div class="projects">
+                    <div v-for=" (i,id) in list" :key="id">
+                        <!-- <h5 align="center">{{i.name}}</h5> -->
+                        <div class="card">
+                            <div class="project-image">
+
+                            </div>
+                            <a class="project-info" :href="i.html_url">
+                                {{i.description}}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="join-us">
+            <div class="join-us-content">
+                <div class="text">
+                    <h2>Join Us</h2>
+                    <p>
+                        Something should go here so Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam
+                        commodi sequi quos vel expedita velit harum dolorem consequatur labore temporibus rem esse eius
+                        sunt, corrupti debitis, mollitia possimus ad officia.
+                    </p>
+                </div>
+
+            </div>
+            <div class="contact-form">
+                <div class="card " id="links-card">
+                    <button class="btn link-btn" onclick="newLink('forms.gle/cXv8tAforb1em5Kj9')">
+                        Become A Contributor <i class="fas fa-external-link-alt"></i>
+                    </button>
+
+                    <button class="btn link-btn" onclick="newLink('github.com/devscollab/devscollab.github.io')">
+                        Github Repository <i class="fas fa-external-link-alt"></i>
+                    </button>
+
+                    <button class="btn link-btn" onclick="newLink('discord.gg/JfKmqUh')">
+                        Join The Discord Server <i class="fas fa-external-link-alt"></i>
+                    </button>
+
+                    <div class="card-action card-footer">
+                        Think of this as a playground where no matter what your skill level, you can contribute to this
+                        project and keep in mind that breaking things doesn't matter, keep learning.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="container main-container">
             <h1>DevsCollab</h1>
 
             <div class="card links-card">
@@ -65,27 +188,7 @@
                     project and keep in mind that breaking things doesn't matter, keep learning.
                 </div>
             </div>
-        </div>
-
-        <div class="container">
-            <h1 align="center">Projects</h1>
-            <div id="app">
-                <div class="projects">
-                    <div v-for=" (i,id) in list" :key="id">
-                        <h5 align="center">{{i.name}}</h5>
-                        <div class="card">
-                            <div class="project-image">
-                                <!-- <p>{{i.name}}</p> -->
-                            </div>
-                            <a class="project-info" :href="i.html_url">
-                                {{i.description}}
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        </div> -->
 
     </div>
 
@@ -116,6 +219,7 @@
     </script>
 
     <!-- Link to main.js javascript file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.9.1/rellax.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
     <script src="js/main.js"></script>
 </body>
