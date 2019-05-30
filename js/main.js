@@ -54,3 +54,5 @@ var vm = new Vue({
       });
   }
 })
+
+var rellax = new Rellax('.rellax');
