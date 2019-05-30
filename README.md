@@ -5,7 +5,7 @@
 This website was created by the community of Devs Collab and is run 100% by the community.
 
 ## Who can participate?
-Anybody! Think of this as a playground where no matter what your skill level, you can contribute to this project and keep in mind that breaking things doesn't matter, keep learning.
+Anybody! Think of this as a playground where no matter what your skill level, you can contribute to this project and keep in mind that breaking things doesn't matter, keep coding.
 
 ## What is the project?
 Re-developing  https://devscollab.github.io/  
