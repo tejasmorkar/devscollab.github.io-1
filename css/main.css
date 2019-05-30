@@ -362,11 +362,13 @@ h1 {
     }
 
     .main-heading {
-        font-size: 3.2em
+        font-size: 3.2em;
+        align-self: flex-start
     }
 
     .main-sub-heading {
-        font-size: 1.1em
+        font-size: 1.1em;
+        transform: translateY(-10px)
     }
 
     .about-us {
@@ -440,7 +442,8 @@ h1 {
     #links-card {
         width: 90vw;
         transform: none;
-        margin-top: 20px
+        margin-top: 20px;
+        margin-bottom: 50px
     }
 
     .card-footer {
