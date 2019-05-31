@@ -14,7 +14,7 @@ const newLink = link => {
 
 // VUE JS
 
-let repo_url = `https://api.github.com/repos/devscollab/devscollab.github.io/contributors`
+let repo_url = `https://api.github.com/orgs/devscollab/members`
 async function getRepos() {
   let response = await fetch(repo_url);
   let data = await response.json()

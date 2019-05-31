@@ -356,6 +356,10 @@ h1 {
     color: inherit;
 }
 
+.footer-links>a>i {
+    transform: scale(1.5);
+}
+
 
 
 /* Media Query for Responsive Website on Mobile */
