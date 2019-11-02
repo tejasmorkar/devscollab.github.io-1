@@ -15,7 +15,7 @@ Create pages for showcasing the Projects we make, Contributors' List, Resources 
 
 Information about the Discord Community, along with guides on using Discord.
 
-Discord Community Link: https://discord.gg/JfKmqUh
+Discord Community Link: http://discord.devscollab.com
 
 ## Useful Information
 Repo: https://github.com/devscollab/devscollab.github.io   
